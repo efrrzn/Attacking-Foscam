@@ -11,7 +11,7 @@ This code helps the attacker perform a man in the middle attack when the IP addr
 With the credentials obtained from the brute force, an RTSP infiltration to the live stream can be done also the video footage can be downloaded with the use of same credentials. (IP address should also be provided)
 
 # DoS 
-This code helos the attacker to exhaust the victim device with SYN flood on the cameras open ports. In the code the static ports are written inside a list however, the camera has a dynamic port that changes daily thus using an nmap scan to find the port an adding to the "ports" list may be useful. The code is specifically written to work on Foscam C1 V3 cameras. 
+This code allows the attacker to exhaust the victim device with SYN flood on the cameras open ports. In the code the static ports are written inside a list however, the camera has a dynamic port that changes daily thus using an nmap scan to find the port an adding to the "ports" list may be useful. The code is specifically written to work on Foscam C1 V3 cameras. 
 
 
 
